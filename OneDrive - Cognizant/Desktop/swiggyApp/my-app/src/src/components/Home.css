@@ -1,0 +1,174 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Header Section */
+.home-header {
+  background-color: #fc8019;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.home-header h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.home-header p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.search-bar {
+  margin-top: 10px;
+  padding: 10px;
+  width: 60%;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Restaurant Categories Section */
+.restaurant-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.restaurant-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  justify-content: space-between;
+}
+
+.restaurant-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 10px; /* Add spacing above the image */
+}
+
+.restaurant-card h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.restaurant-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.restaurant-card .highlight {
+  color: #fc8019;
+  font-weight: bold;
+}
+
+/* Footer Section */
+.home-footer {
+  background-color: #fc8019;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.home-footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Previous Bookings Section */
+.previous-bookings-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.previous-bookings-section h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.booking-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin: 10px auto;
+  width: 80%;
+  max-width: 400px;
+  text-align: left;
+}
+
+.booking-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fc8019;
+}
+
+.booking-card p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+/* Featured Restaurants Section */
+.featured-restaurants-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.featured-restaurants-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.featured-restaurants {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.featured-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+}
+
+.featured-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.featured-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.featured-card p {
+  font-size: 14px;
+  color: #666;
+}

@@ -1,0 +1,56 @@
+/* Styles for GroceriesPage */
+.groceries-container {
+  padding: 20px;
+  background-color: #e8f5e9;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.groceries-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #388e3c;
+}
+.product-card h3 {
+  color: black; /* Set text color to black for all h3 elements */
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.add-to-cart {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.cart-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ff5722;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+.cart-footer p {
+  margin: 5px 0;
+}
